@@ -28,7 +28,7 @@ variable "snap_channel" {
 variable "charm_channel" {
   description = "Charm channel to deploy openstack-hypervisor charm from"
   type        = string
-  default     = "2023.1/edge"
+  default     = "2023.1/candidate"
 }
 
 variable "openstack_model" {
