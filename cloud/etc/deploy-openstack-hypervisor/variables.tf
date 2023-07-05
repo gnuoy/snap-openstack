@@ -22,7 +22,7 @@ variable "machine_ids" {
 variable "snap_channel" {
   description = "Snap channel to deploy openstack-hypervisor snap from"
   type        = string
-  default     = "2023.1/edge"
+  default     = "2023.1/candidate"
 }
 
 variable "charm_channel" {
